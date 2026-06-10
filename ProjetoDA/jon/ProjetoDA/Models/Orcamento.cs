@@ -13,7 +13,7 @@ namespace ProjetoDA.Models
         public int Mes { get; set; }
         public int Ano { get; set; }
         public int CriadoPorId { get; set; }
-        public Utilizador CriadoPor { get; set; }
+        public Utilizadores CriadoPor { get; set; }
         public int? AlteradoPorId { get; set; }
         public Utilizadores AlteradoPor { get; set; }
     }

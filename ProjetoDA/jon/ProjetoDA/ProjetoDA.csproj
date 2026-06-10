@@ -141,12 +141,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Views\FormArtigos.resx">
-      <DependentUpon>FormArtigos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\FormCompras.resx">
-      <DependentUpon>FormCompras.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Views\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>

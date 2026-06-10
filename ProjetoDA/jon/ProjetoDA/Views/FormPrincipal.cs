@@ -60,14 +60,14 @@ namespace ProjetoDA.Views
         }
         // ── Botões do Menu ──────────────────────────────
 
-        private void btnUtilizadores_Click(object sender, EventArgs e)
+        private void btnUtilizadores_Click_1(object sender, EventArgs e)
         {
             new FormUtilizadores().ShowDialog();
-        }
 
+        }
         private void btnTiposArtigo_Click(object sender, EventArgs e)
         {
-            new FormTiposArtigo().ShowDialog();
+            new FormTipoArtigo().ShowDialog();
         }
 
         private void btnArtigos_Click(object sender, EventArgs e)
@@ -128,9 +128,6 @@ namespace ProjetoDA.Views
 
         }
 
-        private void btnUtilizadores_Click_1(object sender, EventArgs e)
-        {
-
-        }
+     
     }
 }

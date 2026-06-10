@@ -10,7 +10,8 @@ namespace ProjetoDA.Data
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext() : base("name=iShoppingDB") { }
+        // Alterado para usar o nome da connection string "ProjetoDA"
+        public AppDbContext() : base("name=ProjetoDA") { }
 
         public DbSet<Utilizadores> Utilizadores { get; set; }
         public DbSet<TipoArtigo> TiposArtigo { get; set; }
